@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif, Arial;
+    background-image: url('https://avatars.mds.yandex.net/i?id=32b2e2cdd15a78bafda7df8b0db6e6c09cbdea97-5179350-images-thumbs&n=13')
+}
+
+@keyframes color-changer {
+    10% {color: white}
+    40% {color: blue}
+    70% {color: maroon}
+    100% {color: orchid}
+}
+
+h1 {
+    font-size: 300px;
+    margin-left: 300px;
+    animation: color-changer 10s infinite
+}
+
+img {
+    margin-left: 699px
+}
+
+h2 {
+    font-size: 100px
+}
+
+h3 {
+    font-size: 50px
+}
+
+h4 {
+    font-size: 40px
+}
+
+h5 {
+    font-size: 40px;
+    margin-right: 30px
+}
+
+li {
+    font-size: 30px;
+    margin-left: 30px
+}
+
+
+h6 {
+    font-size: 40px
+}
+
+h7 {
+    margin-left: 1000px;
+    font-size: 33px
+}
