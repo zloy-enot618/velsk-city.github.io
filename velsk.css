@@ -67,6 +67,5 @@ input[name='test'] {
     margin-left:500px;
     width: 500px;
     height: 100px;
-    animation: color-changer 10s infinite;
     text-size-adjust: 100px
 }
