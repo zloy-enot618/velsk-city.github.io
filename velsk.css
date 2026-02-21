@@ -3,6 +3,10 @@ body {
     background-image: url('https://avatars.mds.yandex.net/i?id=32b2e2cdd15a78bafda7df8b0db6e6c09cbdea97-5179350-images-thumbs&n=13')
 }
 
+iframe {
+    margin-left: 100px
+}
+
 @keyframes color-changer {
     10% {color: white}
     40% {color: blue}
@@ -50,4 +54,19 @@ h6 {
 h7 {
     margin-left: 1000px;
     font-size: 33px
+}
+
+input[name='button'] {
+    width: 510px;
+    height: 100px;
+    margin-left: 500px;
+    animation: color-changer 10s infinite
+}
+
+input[name='test'] {
+    margin-left:500px;
+    width: 500px;
+    height: 100px;
+    animation: color-changer 10s infinite;
+    text-size-adjust: 100px
 }
